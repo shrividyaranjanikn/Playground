@@ -22,5 +22,7 @@ function calculate(value){
 }
 
 let r = calculate(6);
+let y = calculate(9);
 console.log(r);
+console.log(y);
 
