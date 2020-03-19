@@ -35,3 +35,16 @@ console.log(a);
 a.pop();
 console.log(a);
 console.log(a.length);
+
+// Adding and removing elements in the array using push and pop functions
+let g = [];
+g.push(1);
+g.push(15);
+g.push(8);
+g.push(65);
+g.push(7);
+g.push(23);
+console.log(g);
+g.pop();
+g.pop();
+console.log(g);
