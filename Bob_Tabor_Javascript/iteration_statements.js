@@ -1,8 +1,16 @@
 // for loop
 // for (initialization ; condition ; increment/decrement){}
 
-/*for (let z=0; z<10 ; z++){
+for (let z=0; z<10 ; z++){
     console.log(z);
+}
+
+// Using decision statements inside loops
+for (j=0; j<10; j++){
+    if(j==7){
+        break;
+    }
+    console.log(j);
 }
 
 // Iterating through an arrow
@@ -18,7 +26,7 @@ let b = [5,6,8,20,5,6,51];
 for (j=0; j<b.length; j++){
     let c = b[j];
     console.log(c);
-}*/
+}
     
 // while loop
 // while(condition){}

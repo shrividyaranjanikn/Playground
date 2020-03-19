@@ -22,5 +22,3 @@ function two(){
     }
 }
 
-let myFunction = two();
-myFunction();

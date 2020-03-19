@@ -28,4 +28,5 @@ var c = {
     ]
 };
 console.log(c.myArray);
+console.log(c.myArray);
 
