@@ -30,7 +30,7 @@ let w = ' How are you?';
 console.log(q+w);
 
 //Precedence
-var u = (1+2)*3;
+var u = ((1+2)*3);
 console.log(u);
 
 // Funtion invocation operators ()
