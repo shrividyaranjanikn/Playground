@@ -24,9 +24,9 @@ console.log(a.myProperty.b);
 
 var c = {
     myArray : [
-        {d : 'Hello'}, {e : 'my'}, {f: 'friend'}
+        {d : 'Hello'}, {e : 'my'}, {f: 'friend'}, {h: 'how'}, {j: 'are'}, {k: 'you?'}
     ]
 };
 console.log(c.myArray);
-console.log(c.myArray);
+
 
