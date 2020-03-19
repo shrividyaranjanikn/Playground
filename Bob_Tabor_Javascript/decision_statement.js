@@ -27,8 +27,8 @@ else{
 }
 
 // Switch statement
-let name = 'Alice';
-switch(name) {
+let name1 = 'Alice';
+switch(name1) {
     case 'Alice':
         console.log('Alice is a good girl');
         break;
@@ -47,5 +47,5 @@ switch(name) {
 let a =1, b = '1';
 let result = (a == b) ? 'equal' : 'inequal'; // Checks if both the values are equal
 console.log(result);
-let r = (a === b) ? 'equal' : 'inequal'; // Checks the value as well as the datatype of the values
-console.log(r);
+let compare = (a === b) ? 'equal' : 'inequal'; // Checks the value as well as the datatype of the values
+console.log(compare);
