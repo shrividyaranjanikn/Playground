@@ -2,7 +2,7 @@
 
 // function returing a value
 
-/*function one(){
+function one(){
     return 'one';
 }
 
@@ -13,7 +13,7 @@ let r = one;
 console.log(typeof r);
 
 let value = one;
-console.log(value());*/
+console.log(value());
 
 // Function returing a function
 function two(){
