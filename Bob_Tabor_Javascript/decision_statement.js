@@ -1,6 +1,7 @@
 // Types of decision statements
 
 // if statement , else if statement
+//Example 1
 var count = 4;
 if (count == 4){
     console.log(' Count is 4');
@@ -14,6 +15,15 @@ else if(count < 4)
 }
 else{
     console.log('Count is not 4');
+}
+
+// Example 2
+let name = 'Alex';
+if(name != 'Alex'){
+    console.log('Enter the correct name');
+}
+else{
+    console.log('Hello! Welcome Alex!');
 }
 
 // Switch statement
