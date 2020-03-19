@@ -16,3 +16,8 @@ console.log('Sum = '+sum);
 let firstName = 'Shrividya';
 let lastName = 'Ranjani';
 console.log(firstName + lastName);
+
+// Concatinating two arrays
+let y = [5,8,5,9,41];
+let z = [10,5,6,8,9,10];
+console.log(y + ',' + z);
