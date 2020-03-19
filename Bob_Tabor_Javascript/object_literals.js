@@ -13,3 +13,19 @@ let bike = {
 bike.getPrice();
 bike.printDescription();
 console.log(bike.make, bike.year);
+
+var a = {
+    myProperty : {
+        b: 'hi'
+    }
+};
+
+console.log(a.myProperty.b);
+
+var c = {
+    myArray : [
+        {d : 'Hello'}, {e : 'my'}, {f: 'friend'}
+    ]
+};
+console.log(c.myArray);
+
