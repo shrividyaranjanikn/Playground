@@ -1,5 +1,6 @@
 body{
     background-color: #22272a;
+    color: white;
 }
 
 img{
@@ -7,4 +8,10 @@ img{
     width: 25%;
     margin-left: 500px;
     margin-top: 50px;
+}
+.jumbotron{
+    background-color: #22272a;
+    font-family: 'Satisfy', cursive;
+    position: relative;
+    left: 40%;
 }
