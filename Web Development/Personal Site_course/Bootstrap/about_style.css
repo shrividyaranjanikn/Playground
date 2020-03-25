@@ -1,0 +1,22 @@
+body{
+    background-color: #22272a;
+}
+.heading{
+    font-family: 'Nunito', sans-serif;
+    color: #dadada;
+    margin-left: 530px;
+    margin-top: 30px;
+    font-size: 4rem;
+}
+.matter{
+    color: #e8e8e8;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 1.2rem;
+}
