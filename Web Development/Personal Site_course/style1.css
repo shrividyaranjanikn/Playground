@@ -1,5 +1,5 @@
 body{
-    background-color: #002134;
+    background-image: url('backimg.jpg');
     color: white;
     margin: 0px;
 }
@@ -14,8 +14,11 @@ h1{
     font-size: large;
 }
 
-h1,p{
+h1{
     position: relative;
-    left: 70%;
+    left: 10%;
     top: 250px;
+}
+img{
+    border-radius: 50%;
 }
