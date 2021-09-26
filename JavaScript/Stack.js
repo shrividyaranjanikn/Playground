@@ -20,7 +20,7 @@ class Stack {
             throw new Error("Stack Empty");
         }
 
-        poppedElement = this.container[this.topIndex];
+        let poppedElement = this.container[this.topIndex];
         this.topIndex -= 1;
         return poppedElement;
     }
