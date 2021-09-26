@@ -50,10 +50,10 @@ stack.push(60);
 stack.push(3);
 stack.push(7);
 
-console.log(`Elements after being added to the array: ${this.allElements}`);
+console.log(`Elements after being added to the array: ${stack.allElements}`);
 
 stack.pop();
-console.log(`Elements after popping the last element: ${this.allElements}`);
+console.log(`Elements after popping the last element: ${stack.allElements}`);
 
-console.log(`All elements in the array: ${this.allElements}`);
-console.log(`Topmost element in the array: ${this.topElement}`);
+console.log(`All elements in the array: ${stack.allElements}`);
+console.log(`Topmost element in the array: ${stack.topElement}`);
