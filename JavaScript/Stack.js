@@ -12,7 +12,7 @@ class Stack {
         }
 
         this.topIndex += 1;
-        this.container[topIndex] = element;
+        this.container[this.topIndex] = element;
     }
 
     pop() {
@@ -20,7 +20,7 @@ class Stack {
             throw new Error("Stack Empty");
         }
 
-        poppedElement = this.container[topIndex];
+        poppedElement = this.container[this.topIndex];
         this.topIndex -= 1;
         return poppedElement;
     }
@@ -30,7 +30,7 @@ class Stack {
             throw new Error("Stack Empty");
         }
 
-        return this.container[topIndex];
+        return this.container[this.topIndex];
     }
     get allElements() {
         if (this.topIndex == -1) {
@@ -43,11 +43,17 @@ class Stack {
 }
 
 let stack = new Stack();
+
 stack.push(10);
 stack.push(57);
 stack.push(60);
 stack.push(3);
 stack.push(7);
+
+console.log("Elements after being added to the array: ", + allElements);
+
 stack.pop();
+console.log("Elements after popping the last element: ", + allElements);
+
 console.log("All elements in the array: ",+ allElements);
 console.log("Topmost element in the array: ",+ topElement);
