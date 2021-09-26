@@ -25,7 +25,7 @@ class Stack{
         return poppedElement;
     }
 
-    getTopElement(){
+    get topElement(){
         if(topIndex == -1){
             throw new Error("Stack Empty");
         }
