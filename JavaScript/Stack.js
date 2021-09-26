@@ -32,4 +32,12 @@ class Stack{
 
         return this.container[topIndex];
     }
+    get allElements(){
+        if(topIndex == -1){
+            throw new Error("Stack Empty");
+        }
+
+       return [...this.container];
+
+    }
 }
