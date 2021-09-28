@@ -1,6 +1,6 @@
 // Write a program to find maximum between two numbers.
 
-function maximum(x,y){
+function maximum(x,y) {
     if(x > y){
         console.log(`${x} is greater than ${y}`);
     }
