@@ -2,13 +2,13 @@
 
 function typeOfNumber(x){
     if(x < 0){
-        console.log("x is negative");
+        console.log(`${x} is negative`);
     }
     else if(x == 0){
-        console.log("x is zero");
+        console.log(`${x} is zero`);
     }
     else{
-        console.log("x is positive");
+        console.log(`${x} is positive`);
     }
 }
 
