@@ -1,6 +1,6 @@
 // Write a program to check whether a number is negative, positive or zero.
 
-function typeOfNumber(x){
+function typeOfNumber(x) {
     if(x < 0){
         console.log(`${x} is negative`);
     }
