@@ -9,5 +9,6 @@ function maximum(x,y){
     }
 }
 
-let x,y;
 maximum(8,5);
+
+
