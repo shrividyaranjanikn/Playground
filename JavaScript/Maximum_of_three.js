@@ -1,6 +1,6 @@
 // Write a program to find maximum between three numbers.
-
-function maxOfThree (x,y,z){
+ 
+function maxOfThree(x,y,z) {
     if(x > y && x > z){
         console.log(`${x} is greater than ${y} and ${z}`);
     }
