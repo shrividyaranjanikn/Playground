@@ -1,34 +1,40 @@
 // Write a program to input angles of a triangle and check whether triangle is valid or not.
 
-function isValidTriangle(angle1, angle2, angle3) {
+function isValidTriangle(result) {
 
-    if(angle1 + angle2 + angle3 == 180){
+    anglesOfTriangle();
+
+    if(result == 180){
         console.log("This is a valid triangle.");
     }
 
     else{
         console.log("This is not a valid triangle.");
-    }
+    } 
 }
 
-const readline = require('readline').createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
+function anglesOfTriangle() {
+    const readline = require('readline');
+    let r1 = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+      });
 
-  readline.question('Enter the number of units: ', angle1 => {
-    console.log(`The first angle of a triangle is ${angle1}!`);
-    readline.close();
-  });
+    let r2 = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout 
+    });
 
-  readline.question('Enter the number of units: ', angle2 => {
-    console.log(`The first angle of a triangle is ${angle2}!`);
-    readline.close();
-  });
+    let r3 = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout 
+    });
+      r1.question('Enter the first angle: ', (angle1) => {
+        r2.question('Enter the second angle: ', (angle2) => {
+            r3.question('Enter the third angle: ', (angle3) => {
+                let result = (+angle1) + (+angle2) + (+angle3);
+            })})
+      });
+}
 
-  readline.question('Enter the number of units: ', angle3 => {
-    console.log(`The first angle of a triangle is ${angle3}!`);
-    readline.close();
-  });
-
-  
+isValidTriangle();
