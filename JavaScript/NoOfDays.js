@@ -12,6 +12,9 @@ function noOfDays(month) {
             console.log("You have 28 days in this month if the year is not a leap year. If the year is a leap year, you have 29 days in this month");
         }
     }
+    else {
+        console.log("Enter a valid month number!");
+    }
 }
 
 noOfDays(9);

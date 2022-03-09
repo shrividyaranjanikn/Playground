@@ -2,6 +2,8 @@
 
 function isVowelOrConsonant(character) {
 
+    
+
     switch(character){
         
         case 'a':

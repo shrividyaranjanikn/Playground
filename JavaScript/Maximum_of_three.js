@@ -15,3 +15,5 @@ function maxOfThree(x,y,z) {
 } 
 
 maxOfThree(18,4,90);
+
+// (con1) ? true : (con2) ? true : false

@@ -14,27 +14,23 @@ function isValidTriangle(result) {
 }
 
 function anglesOfTriangle() {
-    const readline = require('readline');
-    let r1 = readline.createInterface({
+    const readline = require('readline').createInterface({
         input: process.stdin,
         output: process.stdout
       });
+       
+      readline.question('Who are you?', name => {
+        console.log(`Hey there ${name}!`);
 
-    let r2 = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout 
-    });
-
-    let r3 = readline.createInterface({
-        input: process.stdin,
-        output: process.stdout 
-    });
-      r1.question('Enter the first angle: ', (angle1) => {
-        r2.question('Enter the second angle: ', (angle2) => {
-            r3.question('Enter the third angle: ', (angle3) => {
-                let result = (+angle1) + (+angle2) + (+angle3);
-            })})
+        readline.question('What are you?', type => {
+            console.log(`Your type: ${type}`);
+            readline.close();
+        })
       });
+
+
+
+      
 }
 
-isValidTriangle();
+anglesOfTriangle();
