@@ -1,39 +1,50 @@
 <script>
-
-let id = 0
+let id = 0;
 
 export default {
   data() {
     return {
-      newTodo: '',
-      todos: [
-        {
-          id:id++,
-          text:"Learn Vue JS"
-        }
-      ]
-    }
+      newTodo: "",
+      todos: [],
+    };
   },
   methods: {
     addTodo() {
+      if(this.newTodo == "") return;
+      
       this.todos.push({
-        id:id++,
+        id: id++,
         text: this.newTodo
-      })
-      this.newTodo = ''
-    }
-  }
-}
+      });
+      this.newTodo = "";
+    },
+  },
+};
 </script>
 
 <template>
   <div id="textbox">
-    <form @submit.prevent="addTodo">
-      <input v-model="newTodo" type="text"/>
+      <h2>Todo List</h2>
+      <input v-model="newTodo" type="text" />
       <button @click="addTodo" placeholder="Enter the task here">Add</button>
-    </form>
-    <ul>
-      <li v-for="todo in todos" :key="todo.id">{{todo.text}}</li>
-    </ul>   
+      <br />
+      <ul>
+        <li v-for="todo in todos" :key="todo.id">{{ todo.text }}</li>
+      </ul>
   </div>
 </template>
+
+<style>
+#textbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+}
+
+button {
+  background-color: #00008b;
+  color: white;
+}
+</style>
