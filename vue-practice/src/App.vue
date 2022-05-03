@@ -10,10 +10,6 @@ import Todo from './components/Todo.vue';
       <Todo />
     </div>
   </header>
-
-  <main>
-    
-  </main>
 </template>
 
 <style>
@@ -49,7 +45,7 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1662px) {
   body {
     display: flex;
     place-items: center;
